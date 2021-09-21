@@ -1,0 +1,13 @@
+.hover-clippath:hover > .hover-clippath-target{
+    background: rgba($color: $theme-3, $alpha: 0.7);
+    animation: clippath-change 600ms;
+}
+
+@keyframes clippath-change {
+    0%{
+        clip-path: circle(0%);
+    }
+    100%{
+        clip-path: circle(100%);
+    }
+}
